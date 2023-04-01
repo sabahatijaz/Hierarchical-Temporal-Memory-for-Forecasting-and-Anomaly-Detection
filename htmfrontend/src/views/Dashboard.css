@@ -1,0 +1,33 @@
+.update-btn {
+  position: relative;
+  top: -70px;
+  left: 600px;
+}
+
+@media only screen and (width: 1024px) {
+  /* For mobile phones: */
+  [class*="update-btn"] {
+    position: relative;
+    top: -70px;
+    left: 350px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /* For mobile phones: */
+  [class*="update-btn"] {
+    position: relative;
+    top: -70px;
+    left: 520px;
+  }
+}
+
+.loader {
+  position: absolute !important;
+  left: 50% !important;
+  top: 46% !important;
+  z-index: 1000 !important;
+  height: 31px !important;
+  width: 31px !important;
+}
+/* #247BF7 */
